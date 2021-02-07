@@ -117,7 +117,9 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 Then [read our Getting Started guide][getting-started] to be walked through
 installing, configuring and maintaining Doom Emacs.
 
-It's a good idea to add `~/.emacs.d/bin` to your `PATH`! Other `bin/doom`
+It's a good idea to add `~/.emacs.d/bin` to your `PATH`! Use `path+=($HOME/.emacs.d/bin)` to do so.
+
+Other `bin/doom`
 commands you should know about:
 
 + `doom sync` to synchronize your private config with Doom by installing missing
